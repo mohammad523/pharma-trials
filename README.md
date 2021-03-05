@@ -1,5 +1,3 @@
-# pharma-trials
-
 # Project Overview
 
 ## Project Links
