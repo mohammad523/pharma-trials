@@ -40,10 +40,17 @@ Unless otherwise noted, time is listed in hours:
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|  | H | 1 | 2 |  |
-| | H | 1 | 2 |  |
-| | H | 1 | 3 |  |
-| | H | 3 | 5 |  |
-| | H | 3 | 5 |  |
-| | H | 3 | 5 |  |
-| | H | 2 | 4 |  |
+| Three Snap pages | H | 1 | 2 |  |
+| All Pages combined into one scrolling page | H | 1 | 2 |  |
+| Fading in and out text | H | 1 | 3 |  |
+| Floating Header | H | 3 | 5 |  |
+| Royalty free video background | H | 3 | 5 |  |
+| Incorporate plenty white space | H | 3 | 5 |  |
+| Animated pills and bottles | H | 2 | 4 |  |
+
+##### Inspirations
+https://rvmatrix.in/
+https://www.indena.com/
+https://www.mndflmeditation.com/
+https://skaled.com/
+https://westeast.ru/
