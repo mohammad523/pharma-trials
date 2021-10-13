@@ -49,8 +49,4 @@ Unless otherwise noted, time is listed in hours:
 | Animated pills and bottles | H | 2 | 4 |  |
 
 ##### Inspirations
-- https://rvmatrix.in/
-- https://www.indena.com/
-- https://www.mndflmeditation.com/
-- https://skaled.com/
-- https://westeast.ru/
+- https://robin-noguier.com/
