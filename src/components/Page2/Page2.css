@@ -1,0 +1,86 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+.page-2-container {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+}
+
+.page-2-text {
+	grid-row: 3/5;
+	grid-column: 2/7;
+	font-size: 24px;
+	font-family: "Playfair Display", serif;
+	z-index: 10;
+	color: rgb(58, 58, 58);
+	font-weight: 400;
+	position: relative;
+}
+
+.stethoscope {
+	position: absolute;
+	width: 100px;
+	padding-top: 30px;
+	right: 15vw;
+	animation: stethoscope 4000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+.cardiograph {
+	position: absolute;
+	z-index: -10;
+	opacity: 0.05;
+	width: 100%;
+	padding-top: 130px;
+	overflow-x: hidden;
+	animation: cardiograph 2s infinite;
+}
+.cardiograph svg {
+	color: rgb(250, 250, 250);
+}
+
+@keyframes cardiograph {
+	0% {
+		transform: scale(1);
+	}
+	15% {
+		transform: scale(1.1);
+	}
+	30% {
+		transform: scale(1);
+	}
+	45% {
+		transform: scale(1.1);
+	}
+	60% {
+		transform: scale(1);
+	}
+	85% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes stethoscope {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.page-2-text {
+		font-size: 35px;
+	}
+}
