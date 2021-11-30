@@ -15,7 +15,7 @@
 	background-color: white;
 	padding: 50px;
 	border-radius: 100px;
-	height: 275px;
+	height: 100%;
 }
 
 .contact-us-header {
@@ -35,7 +35,7 @@ input {
 	width: 100%;
 	border: 0.5px solid gray;
 	border-radius: 20px;
-	height: 30px;
+	height: 100%;
 	padding: 5px;
 }
 
@@ -76,6 +76,7 @@ input {
 	border-radius: 10px;
 	padding: 5px;
 	margin: 5px;
+	height: 10%;
 	width: 95%;
 }
 
